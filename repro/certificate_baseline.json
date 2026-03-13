@@ -1,0 +1,78 @@
+{
+  "all_pass": true,
+  "all_pass_normalized": true,
+  "blockers": {
+    "GS_G1": [],
+    "GS_G2": [],
+    "GS_G3": [],
+    "GS_G4": [],
+    "GS_G5": [],
+    "GS_G6": [],
+    "GS_GM": []
+  },
+  "derived": {
+    "strict_coh_zero": true,
+    "strict_margin": 0.8012820512820513
+  },
+  "gates": {
+    "GS_G1": "PASS",
+    "GS_G2": "PASS",
+    "GS_G3": "PASS",
+    "GS_G4": "PASS",
+    "GS_G5": "PASS",
+    "GS_G6": "PASS",
+    "GS_GM": "PASS"
+  },
+  "inputs": {
+    "eps_coh": 0.0,
+    "kappa_bundle": 1.093346,
+    "kappa_compact": 0.8012820512820513,
+    "rho_rigidity": 1.077,
+    "sigma_star_can": 1.053,
+    "sigma_triviality": 1.0739999999999998,
+    "torsor_transfer": 1.029422
+  },
+  "lane": {
+    "active_lane": "manifold_constrained",
+    "canonical_theorem_lane": "manifold_constrained"
+  },
+  "meta": {
+    "computed_at_utc": "2026-03-13T17:47:52+00:00",
+    "framework": "grothendieck_serre_conjecture"
+  },
+  "normalized": {
+    "blockers": {
+      "G1": [],
+      "G2": [],
+      "G3": [],
+      "G4": [],
+      "G5": [],
+      "G6": [],
+      "GCoh": [],
+      "GM": []
+    },
+    "gates": {
+      "G1": "PASS",
+      "G2": "PASS",
+      "G3": "PASS",
+      "G4": "PASS",
+      "G5": "PASS",
+      "G6": "NA",
+      "GCoh": "PASS",
+      "GM": "PASS"
+    }
+  },
+  "schema": {
+    "g6_policy": "NA means this framework has no standalone pre-coherence G6 gate",
+    "normalized_gate_keys": [
+      "G1",
+      "G2",
+      "G3",
+      "G4",
+      "G5",
+      "G6",
+      "GCoh",
+      "GM"
+    ]
+  }
+}
