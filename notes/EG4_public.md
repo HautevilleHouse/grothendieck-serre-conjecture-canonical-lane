@@ -1,13 +1,46 @@
-# EG4 Public Note
+# EG4 Public Note (Rigidity and Endpoint Transfer)
 
-The `EG4` package establishes rigidity exclusion of bad limits and transfer to the intended endpoint class.
+Mature wording: `bad-limit exclusion / endpoint transfer`.
 
-Raw transfer constant:
+In-paper anchor: `paper/GROTHENDIECK_SERRE_CONJECTURE_PREPRINT.md` (`GS_G4`, `GS_G5`).
 
-`torsor_transfer^(raw) := c_transfer_raw * transfer_gain_raw - e_transfer_raw`.
+## Goal
+Separate the rigidity job from the endpoint-transfer job for `proving triviality of rationally trivial principal bundles in the declared admissible class through an admissible principal-bundle closure architecture`.
+The older wording `rigidity and endpoint-transfer` corresponds to bad-limit exclusion plus the bridge into the intended endpoint object.
 
-Closure criterion:
+## Objects
 
-- bad limits violate rigidity and are excluded,
-- extracted admissible limits transfer to the endpoint class,
-- the final scalar margin remains positive.
+- bad-limit class: candidates extracted by the compactness gate but incompatible with closure.
+- rigidity floor: `rho_rigidity`.
+- endpoint-transfer lock: `torsor_transfer`.
+- coherence interface: `eps_coh` remains available to the bridge and final margin.
+
+## Closure Criterion
+
+`GS_G4` closes when `rho_rigidity` excludes bad endpoint alternatives: bad principal-bundle countermodels are excluded.
+`GS_G5` closes when `torsor_transfer` transfers the surviving endpoint to the intended target class: rigid limit transfers to the Grothendieck-Serre endpoint class.
+Together they feed the strict margin `M_GS`.
+
+## Lemma Chain and Proof Payload
+
+### Lemma EG4.1 (bad-limit exclusion)
+Every extracted bad limit contradicts a declared rigidity constraint or leaves the admissible class.
+
+Payload: verify `rho_rigidity` in the registry and certificate surfaces.
+
+### Lemma EG4.2 (endpoint transfer)
+The surviving rigid representative is locked to the standard problem-side endpoint by `torsor_transfer`.
+
+Payload: read this note together with `notes/IDENTIFICATION_BRIDGE.md`.
+
+### Theorem EG4.3 (rigidity/transfer gate closure)
+If bad limits are excluded and the endpoint lock is active, then `GS_G4` and `GS_G5` deliver the boundary object needed by the final margin.
+
+## Current Instantiation
+
+- rigidity gate: `GS_G4`
+- rigidity artifact key: `rho_rigidity`
+- transfer gate: `GS_G5`
+- transfer artifact key: `torsor_transfer`
+- mature equivalent: `bad-limit exclusion / endpoint identification`
+- audit surface: `notes/IDENTIFICATION_BRIDGE.md` and `repro/certificate_runtime.json`
