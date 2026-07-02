@@ -31,23 +31,23 @@
     },
     {
       "path": "notes/EG1_public.md",
-      "sha256": "497c4117d19cc79afb5ac0d09e75ea8d60f464a39a76be0c07f2aaccf6af501d"
+      "sha256": "c1971ea15332f1f102cd576264f7be47a44cea545d4c4e4f7ec2e1f552590bb8"
     },
     {
       "path": "notes/EG2_public.md",
-      "sha256": "3ccf22a71bc0f4841ecce776cce07a579cd1dc583c7b84f3db763d1d334a6703"
+      "sha256": "cd6fd964ec52d0e38451a9e3a25c5582a7e2cd8c311789b915430cf1252de4c8"
     },
     {
       "path": "notes/EG3_public.md",
-      "sha256": "eccd16396e1ade8207bde73acc56336ba98551e69b2a4752ef985c2091ea2500"
+      "sha256": "f8ef087c63a4a12518bb1a9f2289f983c010fb44adfeccaaab3712f80c04409a"
     },
     {
       "path": "notes/EG4_public.md",
-      "sha256": "4a9bd07e4d86fb6c2ea7dc3aabdda11d71bd8e2f49228861e62edd8c03be55d5"
+      "sha256": "ebb38f4c2490ba5e603bae2ded2fe0c133012a3ac64f472b6caa4a8c2ffed988"
     },
     {
       "path": "notes/IDENTIFICATION_BRIDGE.md",
-      "sha256": "f7174852900b63f1a2e7746d6b8fdd016de6d4ecd7f13fee236df2e887692a44"
+      "sha256": "3b0a67851af30281cc89ac5ea549e6f9c54f9bbf2b14e9723cbe67a7c2004e87"
     },
     {
       "path": "paper/CANONICAL_ROUTING_INDEX.md",
@@ -59,7 +59,7 @@
     },
     {
       "path": "paper/GROTHENDIECK_SERRE_CONJECTURE_PREPRINT.md",
-      "sha256": "8e43f20d5ce8f31aaad78181e6115b4a4b9ec2233d0c4efe52d9c89f09c9b748"
+      "sha256": "87a3272cb6230631bee93b9526db6a046cbad9007a851005fb4ced0a06328f5e"
     },
     {
       "path": "repro/REPRO_PACK.md",
@@ -102,7 +102,7 @@
       "sha256": "45e3f5772bee7ccd750fa1545e78b79a684462cb6ee4a5e9281f758a922c4d67"
     }
   ],
-  "generated_utc": "2026-07-01T19:07:39Z",
+  "generated_utc": "2026-07-02T16:12:47Z",
   "lane": "manifold_constrained",
   "runtime_certificate_path": "repro/certificate_runtime.json",
   "schema_version": "2026-03-05"
